@@ -136,3 +136,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans', sans-serif}
 .feature-title span {
     margin-left: 5px;
 }
+
+.apk-link {
+  padding: 30px 15px;
+}
+
+.apk-link i {
+  font-size: 40px;
+}
+
+.apk-link .link-container {
+  margin-left: 10px;
+  display: inline-block;
+}
