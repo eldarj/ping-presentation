@@ -1,0 +1,138 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans', sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.mytop1 {
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.05);
+}
+
+.mytop-center-vh {
+  top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-left {
+  text-align: left;
+  line-height: 25px;
+}
+
+.padding-16 {
+  padding: 16px;
+}
+
+.footer-icon-block {
+    display: flex;
+    padding: 15px 0;
+}
+
+.footer-icon-block p {
+    margin-top: 0;
+}
+
+.footer-icon-block i {
+    margin-top: 5px;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #444;
+}
+
+.myhr {
+  width: 100%;
+  height: 5px;
+  display: block;
+  background: #CB202D;
+}
+.mytit {
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+.screens img {
+    max-width: 250px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1);
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+.myheader {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-image: url(images/main_background.jpg);
+    margin-top: 80px;
+}
+.myheader .h-cont {
+  align-self: center;
+  flex: 1;
+    background: rgba(255,255,255,.9);
+}
+.myheader p {
+    font-size: 20px;
+}
+.invisible {
+  visibility: hidden;
+}
+
+
+/*
+ *
+ *
+ *
+ *
+ */
+.holder {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px rgb(0 0 0 / 20%);
+    background: #fafafa;
+    margin-bottom: 25px;
+}
+.holder h3 {
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    background: #f0f0f0;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.holder p {
+    text-align: left;
+    padding: 20px;
+    background: #f0f0f0;
+    margin-bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img-logo {
+    margin: 5px 5px 5px 16px;
+    padding: 10px 0;
+}
+
+.img-logo img {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+
+.img-logo span {
+    font-weight: bold;
+}
+
+.features-container p {
+    margin-left: 10px; margin-right: 10px;
+}
+.feature-title {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 5px 10px 5px 10px;
+}
+
+.feature-title span {
+    margin-left: 5px;
+}
